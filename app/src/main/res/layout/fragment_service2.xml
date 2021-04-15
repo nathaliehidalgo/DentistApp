@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    android:weightSum="3"
+    >
+    <ImageView
+        android:src="@drawable/service2"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="Procedimientos de obturación o llenado dental"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#86bbe5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/nunito"
+        android:textSize="18sp"
+        android:text="La mayoría de las personas necesitan al menos un empaste dental durante su vida. Generalmente se utilizan con mayor frecuencia para tratar las caries, aunque también son utilizados para reparar dientes agrietados, rotos o que se han desgastado con el tiempo."
+        />
+</LinearLayout>

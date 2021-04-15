@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DentistApp</string>
+    <string name="textviewmenu">Menu</string>
+    <string name="button1">Servicios</string>
+    <string name="button2">Agendar cita</string>
+    <string name="button4">Mis citas</string>
+    <string name="button3">Tips</string>
+    <string name="button5">Ubicación</string>
+    <string name="button6">Contáctanos</string>
+    <string name="textview1">TextView</string>
+    <string name="hello_world">hello world</string>
+</resources>
