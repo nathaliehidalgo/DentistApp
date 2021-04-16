@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@color/lightblue1"
+    android:background="@color/mainblue"
     tools:context="com.example.dentistapp.SplashActivity">
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/happysmiles"
+        android:src="@drawable/transparenttooth"
         />
 
 
